@@ -1,0 +1,78 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.hero {
+    width: 100%;
+    min-height: 100vh;
+    background-color: blueviolet;
+    font-weight:bolder;
+    display: flex;
+}
+
+.hero .container {
+    width: 100%;
+    max-width: 400px;
+    margin: auto;
+    padding: 100px;
+    display: flex;
+    flex-direction: column;
+    background-color: brown;
+    border-radius: 50%;
+}
+
+.hero .container .randomNum {
+    background:burlywood;
+    border-radius: 10px;
+    padding: 30px;
+    min-width: 100%;
+}
+
+.hero .container .randomNum p span {
+    color: cadetblue;
+    font-weight: bold;
+}
+
+.hero .numContainer {
+    gap: 10px;
+    padding: 40px 0;
+    min-width: 50%;
+
+
+}
+
+.hero .container div {
+    width: 50%;
+    align-items: center;
+    justify-content: center
+    
+}
+.hero .container div input {
+    padding: 1px;
+    border: none;
+    outline: none;
+    background: mediumaquamarine;
+    color: black;
+    font-weight: bold;
+    
+}
+
+.hero .container button {
+      align-items: center;
+      border: none;
+      outline: none;
+      background: #faf0a7;
+      height: 25px;
+      border-radius: 25px;
+      margin-top: 10px;
+      cursor: pointer;
+      transition: .4s;
+      color: blueviolet;
+}
+.hero .container button:hover {
+    background-color:aqua;
+    color:brown;
+}
